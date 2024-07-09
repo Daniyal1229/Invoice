@@ -1,0 +1,57 @@
+.add-customer-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #011c0e;
+    color: silver; 
+}
+
+.customer-form {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    background-color: #002a12;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group textarea, .form-group input {
+    background-color: #011c0e;
+    padding: 5px;
+    border: none;
+    outline: none;
+    width: calc(100% - 10px); 
+    border-bottom: 2px solid #03c03c;
+    color: silver;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-row {
+    grid-column: span 2; 
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+    align-items: center; 
+    border:1px solid rgb(0, 0, 0);
+    padding: 5px 10px;
+    background-color: #00000024;
+    color: #03c03c;
+}   
+
+.submit-button {
+    background-color: #03c03c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: flex-end;
+}
